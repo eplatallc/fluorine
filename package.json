@@ -1,6 +1,6 @@
 {
-  "name": "fluorine-lib",
-  "version": "5.0.0",
+  "name": "fluorine-lib-custom-logger",
+  "version": "5.0.1",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
   "files": [
@@ -82,7 +82,8 @@
     "webpack": "^2.1.0-beta.13"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0-0"
+    "prop-types": "^15.6.0",
+    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0"
   },
   "engines": {
     "node": ">= 0.12.0"

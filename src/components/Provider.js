@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react'
+import PropTypes from 'prop-types'
+import React, { Component } from 'react'
 
 import assert from '../util/assert'
 import isObservable from '../util/isObservable'
@@ -16,8 +17,8 @@ export default class Provider extends Component {
   };
 
   static childContextTypes = {
-    observer: React.PropTypes.object,
-    observable: React.PropTypes.object
+    observer: PropTypes.object,
+    observable: PropTypes.object
   };
 
   constructor(props) {
